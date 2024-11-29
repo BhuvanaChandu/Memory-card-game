@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEMORY CARD GAME</title>
+    <link rel="stylesheet" href="easy.css">
+</head>
+<body>
+
+    <h1>MEMORY CARD GAME</h1>
+    <div id="timer">Time: <span id="time">0</span> seconds</div>
+    <div id="box">
+        <table id="table">
+           <tr>
+                <td>
+                    <div class="main" id="btn1" onclick="game(this.id)">
+                        <div class="front"></div>
+                        <div class="back" id="1"></div>
+                    </div>
+                </td>
+                <td>
+                    <div class="main" id="btn2" onclick="game(this.id)">
+                        <div class="front"></div>
+                        <div class="back" id="2"></div>
+                    </div>
+                </td>
+                <td>
+                    <div class="main" id="btn3" onclick="game(this.id)">
+                        <div class="front"></div>
+                        <div class="back" id="3"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>    
+                <td>
+                    <div class="main" id="btn4" onclick="game(this.id)">
+                        <div class="front"></div>
+                        <div class="back" id="4"></div>
+                    </div>
+                </td>
+                <td>
+                    <div class="main" id="btn5" onclick="game(this.id)">
+                        <div class="front"></div>
+                        <div class="back" id="5"></div>
+                    </div>
+                </td>
+                <td>
+                    <div class="main" id="btn6" onclick="game(this.id)">
+                        <div class="front"></div>
+                        <div class="back" id="6"></div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        </div>
+        <button id="resetBtn" style="display: none;"><a href="home.html">Reset Game</a></button>
+
+    <script src="easy.js"></script>
+    
+</body>
+</html>
+
